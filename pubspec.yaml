@@ -1,0 +1,63 @@
+name: gameon
+description: "A new Flutter project"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^1.5.0
+  shared_preferences: ^2.5.3
+  google_fonts: ^8.2.0
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.2.0
+  glassmorphism: ^3.0.0
+  simple_gradient_text: ^1.3.0
+  lottie: ^3.3.2
+  percent_indicator: ^4.2.3
+  qr_flutter: ^4.1.0
+  firebase_core: ^4.14.0
+  firebase_messaging: ^16.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/branding/
+    - assets/images/backgrounds/
+    - assets/images/logo/
+    - assets/images/icons/
+    - assets/images/icons/png/
+    - assets/images/icons/svg/
+    - assets/images/illustrations/
+    - assets/images/avatars/
+    - assets/images/games/
+
+fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/images/icons/png/icon_andros_fill.png"
+  min_sdk_android: 21
